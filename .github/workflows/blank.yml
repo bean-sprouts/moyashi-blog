@@ -25,4 +25,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run deploy shell
-        run: shell deploy.sh
+        run: sh deploy.sh
