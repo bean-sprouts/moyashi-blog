@@ -1,10 +1,10 @@
 module.exports = {
-    title: 'Hello VuePress',
-    description: 'Just playing around',
+    base: '/moyashi-blog/',
+    title: '思考的豆芽',
+    description: '技术分享博客',
     themeConfig: {
         sidebar: 'auto',
         smoothScroll: true, // 页面滚动效果
-
         /*sidebar: [
             '/',
             {
