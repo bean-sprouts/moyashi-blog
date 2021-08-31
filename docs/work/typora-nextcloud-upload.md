@@ -1,4 +1,4 @@
-# typora自动上传nextcloud
+# typora图片自动上传nextcloud
 
 ## picgo安装与配置
 

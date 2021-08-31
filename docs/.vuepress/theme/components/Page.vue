@@ -4,9 +4,12 @@
 
     <Content class="theme-default-content" />
 
-    <Vssue :title="$title" :key="$title" />
-
     <PageEdit />
+
+    <Vssue :title="$title"
+           :key="$title"
+           class="page-nav"
+           style="box-sizing: content-box" />
 
     <PageNav v-bind="{ sidebarItems }" />
 

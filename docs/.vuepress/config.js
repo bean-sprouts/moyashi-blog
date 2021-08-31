@@ -12,10 +12,11 @@ module.exports = {
         sidebar: {
             '/work/': [
                 ['tech-learning', '新技术学习'],
-                ['typora-nextcloud-upload', 'typora自动上传nextcloud'],
+                ['typora-nextcloud-upload', 'typora图片自动上传nextcloud'],
                 // ['typora自动上传nextcloud', 'Explicit link text'],
             ]
         },
+        lastUpdated: '最近更新',
         displayAllHeaders: true, // 显示所有页面的标题链接，展开侧边栏
         // activeHeaderLinks: false, // 活动的标题链接,嵌套的标题链接和 URL 中的 Hash 值实时更新
     },
@@ -32,5 +33,6 @@ module.exports = {
             clientId: '3d38769098dd064fa2d9',
             clientSecret: '65589fdccfead5952b7a45669f4903ba2d312d44',
         },
+        '@vuepress/back-to-top': {},
     }
 }
