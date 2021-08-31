@@ -48,5 +48,3 @@ node路径 picgo路径 upload
 
 - 点击`验证图片上传选项`，测试是否成功，成功会返回nextcloud的分享链接
 - 在typora中粘贴一张图片，查看是否自动上传并将链接修改为nextcloud的分享链接
-
-<GitVssue title="$title" />

@@ -25,10 +25,12 @@ module.exports = {
             platform: 'github',
 
             // 其他的 Vssue 配置
+            locale: 'zh',
+            autoCreateIssue: true,
             owner: 'bean-sprouts',
             repo: 'moyashi-blog',
             clientId: '3d38769098dd064fa2d9',
             clientSecret: '65589fdccfead5952b7a45669f4903ba2d312d44',
         },
-    },
+    }
 }
