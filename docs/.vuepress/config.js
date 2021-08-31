@@ -7,12 +7,12 @@ module.exports = {
         smoothScroll: true, // 页面滚动效果
         nav: [
             { text: "主页", link: "/" },
-            { text: "工作", link: "/work/新技术学习" },
+            { text: "工作", link: "/work/tech-learning" },
         ],
         sidebar: {
             '/work/': [
-                '新技术学习',
-                'typora自动上传nextcloud',
+                ['tech-learning', '新技术学习'],
+                ['typora-nextcloud-upload', 'typora自动上传nextcloud'],
                 // ['typora自动上传nextcloud', 'Explicit link text'],
             ]
         },
